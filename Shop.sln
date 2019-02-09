@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28531.58
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Common", "Shop.Common\Shop.Common.csproj", "{4A002AFD-FF80-4265-8A78-A417503ACC12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Common", "Shop.Common\Shop.Common.csproj", "{4A002AFD-FF80-4265-8A78-A417503ACC12}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{0D01CC4D-2E64-4952-87F8-41E2F62D313F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{99E3FDF3-D988-4A17-9CEA-3D51B41F8F4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Web", "Shop.Web\Shop.Web.csproj", "{6277752E-BA87-4E58-93CB-3616541BB674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Web", "Shop.Web\Shop.Web.csproj", "{6277752E-BA87-4E58-93CB-3616541BB674}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{DFF8F31D-D1E4-4920-BE3C-A5742B69A3EF}"
 EndProject
@@ -19,11 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIForms.Android", "Sho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIForms.iOS", "Shop.UIForms\Shop.UIForms.iOS\Shop.UIForms.iOS.csproj", "{F1E29E4F-62E5-42C3-AEE7-FD554F47B439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIForms", "Shop.UIForms\Shop.UIForms\Shop.UIForms.csproj", "{C71532C4-F9DD-4D6A-A76D-357F32D56887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UIForms", "Shop.UIForms\Shop.UIForms\Shop.UIForms.csproj", "{C71532C4-F9DD-4D6A-A76D-357F32D56887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIClassic", "Shop.UIClassic\Shop.UIClassic.csproj", "{83C045C6-FE33-4179-87E7-D4EDE21471A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UIClassic", "Shop.UIClassic\Shop.UIClassic.csproj", "{83C045C6-FE33-4179-87E7-D4EDE21471A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIClassic.Android", "Shop.UIClassic.Android\Shop.UIClassic.Android.csproj", "{12F4AC5B-20B2-4405-B65B-4567C64657D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UIClassic.iOS", "Shop.UIClassic.iOS\Shop.UIClassic.iOS.csproj", "{B0D15942-0F5F-446D-BE3B-B2CE772DB223}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,16 @@ Global
 		{12F4AC5B-20B2-4405-B65B-4567C64657D8}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{12F4AC5B-20B2-4405-B65B-4567C64657D8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{12F4AC5B-20B2-4405-B65B-4567C64657D8}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Release|iPhone.Build.0 = Release|iPhone
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +154,7 @@ Global
 		{C71532C4-F9DD-4D6A-A76D-357F32D56887} = {DFF8F31D-D1E4-4920-BE3C-A5742B69A3EF}
 		{83C045C6-FE33-4179-87E7-D4EDE21471A1} = {BD2AF2C4-399E-4172-9FEB-9DA8B71FD619}
 		{12F4AC5B-20B2-4405-B65B-4567C64657D8} = {BD2AF2C4-399E-4172-9FEB-9DA8B71FD619}
+		{B0D15942-0F5F-446D-BE3B-B2CE772DB223} = {BD2AF2C4-399E-4172-9FEB-9DA8B71FD619}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61681471-CF44-4B9F-8AC2-9F7E949FD7FC}
