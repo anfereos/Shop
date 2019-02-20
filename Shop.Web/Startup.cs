@@ -42,9 +42,8 @@
             });
 
             services.AddTransient<SeedDb>();//destruye la inyeccion
-
-            services.AddScoped<IRepository, Repository>();//deja la inyección permanente
-
+            services.AddScoped<IProductRepository, ProductRepository>();//deja la inyección permanente
+            services.AddScoped<ICountryRepository, CountryRepository>();
             services.AddScoped<IUserHelper, UserHelper>();
 
             services.Configure<CookiePolicyOptions>(options =>
